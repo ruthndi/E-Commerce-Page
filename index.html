@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jolt Site</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body class="p-0 m-0">
+    <header class="w-full h-1/4">
+        <section class="text-center text-white bg-black py-2 font-custom">
+            <p>New Season Coming! Discount 10% for all products! Check out now! 
+                <span class="bg-gray-700 rounded-md px-2 py-0.5">20.48</span>
+            </p>
+        </section>
+
+        <div class="flex justify-between items-center p-2 h-10">
+            <section class="flex gap-8 font-thin">
+                <h1 class="font-bold text-2xl">Jolt</h1>
+                <nav class="hidden md:flex items-center">
+                    <ul class="hidden md:flex space-x-2">
+                        <li><a href="#" class="font-bold">Categories</a></li>
+                        <li><a href="#">Collections</a></li>
+                        <li><a href="#">Store</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Find Store</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section class="flex space-x-4">
+                <button class="flex gap-2">
+                    <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <p class="hidden md:flex">Search</p>
+                </button>
+
+                <button class="flex gap-2">
+                    <span><i class="fa-solid fa-bag-shopping"></i></span>
+                    <p class="hidden md:flex">Chart (0)</p>
+                </button>
+
+                <button class="hidden md:flex gap-2">
+                    <span><i class="fa-regular fa-circle-user"></i></span>
+                    <p>Login</p>
+                </button>
+
+                <button class="flex gap-2 md:hidden">
+                    <span><i class="fa-solid fa-bars"></i></span>
+                </button>
+            </section>
+        </div>
+    </header>
+
+    <main class="w-full min-h-screen p-4">
+        <section class="grid grid-rows-reverse md:grid-cols-2 gap-8">
+            <div class="flex flex-col-reverse md:flex-row gap-4">
+                <div class="flex md:flex-col space-x-4 md:space-x-0 md:space-y-4">
+                    <div id="divPic1" class="bg-gray-100 rounded-lg p-2">
+                        <img src="IMAGES/Noir-removebg-preview.png" alt="Black Jacket" class="mx-auto w-20 md:w-24 imgDetail">
+                    </div>
+                    <div class="bg-gray-100 rounded-lg p-2">
+                        <img src="IMAGES/purple-removebg-preview.png" alt="Purple Jacket"class="mx-auto w-20 md:w-24 imgDetail">
+                    </div>
+                    <div class="bg-gray-100 rounded-lg p-2">
+                        <img src="IMAGES/vert-removebg-preview.png" alt="Black Jacket"class="mx-auto w-20 md:w-24 imgDetail">
+                    </div>
+                    <div id="divPic4" class="bg-gray-100 rounded-lg p-2">
+                        <img src="IMAGES/noirArriere-removebg-preview.png" alt="Back view of black jacket"class="mx-auto w-20 md:w-24 imgDetail">
+                    </div>
+                </div>
+                <div id="divMain" class="bg-gray-100 rounded-lg shadow-md flex justify-center items-center w-full">
+                    <img id="mainPic" src="IMAGES/Noir-removebg-preview.png" alt="Boa Fleece Jacket" class="w-64 md:w-[350px]">
+                </div>
+            </div>
+
+            
+
+            <div class="space-y-2">
+                <div>
+                    <p class="text-gray-500">Jolt / Jackets</p>
+                    <h1 class="text-2xl py-2">Boa Fleece Jacket</h1>
+                    <div class="flex items-center gap-2">
+                        <p class="text-gray-500 text-lg line-through">$129.00</p>
+                        <h1 class="text-3xl font-bold">$122.00</h1>
+                        <p class="text-white bg-black w-[80px] text-center rounded-lg">5% Off</p>
+                    </div>
+                    
+                    <div class="flex gap-2 py-2 cursor-pointer">
+                        <p><i class="fa-solid fa-star"></i></p>
+                        <p><i class="fa-solid fa-star"></i></p>
+                        <p><i class="fa-solid fa-star"></i></p>
+                        <p><i class="fa-solid fa-star"></i></p>
+                        <p><i class="fa-solid fa-star text-gray-400"></i></p>
+                        <p>(4.9)</p>
+                        <p>1.2K Reviews</p>
+                    </div>
+    
+                    <div>
+                        <h3 class="font-bold py-2">Description</h3>
+                        <p>
+                            Introducing the Boa Fleece Winter Jacket, designed to keep you warm and comfortable during the coldest days. 
+                            Crafted from high-quality fleece material, this jacket offers superior insulation and softness, making it the perfect choice for outdoor activities or everyday wear. 
+                            The jacket features a stylish and functional design, with a... 
+                            <span class="underline cursor-pointer">more</span>
+                        </p>
+                    </div>
+    
+                    <div>
+                        <h3 class="font-bold py-2">Available Colors</h3>
+                        <div class="flex gap-4">
+                            <div class="border border-black h-[60px] w-[60px] flex justify-center items-center rounded-md cursor-pointer">
+                                <p class="bg-black h-[50px] w-[50px] rounded-md btnDetail" dat:::a-image="IMAGES/Noir-removebg-preview.png"></p>
+                            </div>
+                            <div class="border border-purple-900 h-[60px] w-[60px] flex justify-center items-center rounded-md cursor-pointer">
+                                <p class="bg-purple-900 h-[50px] w-[50px] rounded-md btnDetail" data-image="IMAGES/purple-removebg-preview.png"></p>
+                            </div>
+                            <div class="border border-green-900 h-[60px] w-[60px] flex justify-center items-center rounded-md cursor-pointer">
+                                <p class="bg-green-900 h-[50px] w-[50px] rounded-md btnDetail" data-image="IMAGES/vert-removebg-preview.png"></p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="flex gap-2 pt-5">
+                        <button class="bg-gray-100 px-6 py-2 rounded-xl border border-gray-300">Add To Chart</button>
+                        <button class="bg-black text-white px-6 py-2 rounded-xl">Checkout Now</button>
+                    </div>
+                </div>
+            </div>
+
+            
+        </section>
+
+        <section class=" h-1/2">
+            <div class="w-full h-full font-bold text-2xl">
+                <h1 class="my-12">This item can be cool with this</h1>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div>
+                    <div class="relative bg-gray-100 py-2 rounded-lg">
+                        <i class="fa-regular fa-heart absolute top-4 right-4 text-xl text-gray-600 bg-white px-2 py-1 rounded-full shadow-md cursor-pointer hover:text-red-600"></i>
+                        <img src="./IMAGES/Noir-removebg-preview.png" alt="Aos Beanie" class="mx-auto">
+                    </div>
+                    <figcaption class="flex justify-between items-center mt-2">
+                        <div>
+                            <span>Adidas x Jolt</span><br>
+                            <span class="font-bold">$349.00</span>
+                        </div>
+                        <div>
+                            <span class="border border-black rounded-full px-2 py-2"><i class="fa-solid fa-bag-shopping"></i></span>
+                        </div>
+                    </figcaption>
+                </div>
+                <div>
+                    <div class="relative bg-gray-100 py-2 rounded-lg">
+                        <i class="fa-regular fa-heart absolute top-4 right-4 text-xl text-gray-600 bg-white px-2 py-1 rounded-full shadow-md cursor-pointer hover:text-red-600"></i>
+                        <img src="./IMAGES/Noir-removebg-preview.png" alt="Aos Beanie" class="mx-auto">
+                    </div>
+                    <figcaption class="flex justify-between items-center mt-2">
+                        <div>
+                            <span>P. S Cap</span><br>
+                            <span class="font-bold">$49.00</span>
+                        </div>
+                        <div>
+                            <span class="border border-black rounded-full px-2 py-2"><i class="fa-solid fa-bag-shopping"></i></span>
+                        </div>
+                    </figcaption>
+                </div>
+                <div>
+                    <div class="relative bg-gray-100 py-2 rounded-lg">
+                        <i class="fa-solid fa-heart bg-white px-2 py-1 rounded-full absolute top-4 right-4 text-xl" style="color: #ed333b;"></i>
+                        <img src="./IMAGES/Noir-removebg-preview.png" alt="Aos Beanie" class="mx-auto">
+                    </div>
+                    <figcaption class="flex justify-between items-center mt-2">
+                        <div>
+                            <span>OS Beanie</span><br>
+                            <span class="font-bold">$20.00</span>
+                        </div>
+                        <div>
+                            <span class="border border-black rounded-full px-2 py-2"><i class="fa-solid fa-bag-shopping"></i></span>
+                        </div>
+                    </figcaption>
+                </div>
+                <div>
+                    <div class="relative bg-gray-100 py-2 rounded-lg">
+                        <i class="fa-solid fa-heart bg-white px-2 py-1 rounded-full absolute top-4 right-4 text-xl cursor-pointer" style="color: #ed333b; "></i>
+                        <img src="./IMAGES/Noir-removebg-preview.png" alt="Aos Beanie" class="mx-auto">
+                    </div>
+                    <figcaption class="flex justify-between items-center mt-2">
+                        <div>
+                            <span>NH X Hekknox Folding Tote</span><br>
+                            <span class="font-bold">$39.900</span>
+                        </div>
+                        <div>
+                            <span class="border border-black rounded-full px-2 py-2"><i class="fa-solid fa-bag-shopping"></i></span>
+                        </div>
+                    </figcaption>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    <footer class="bg-black text-white px-2 py-2">
+        <div class="w-full">
+            <div class="grid md:grid-cols-5 gap-6">
+                <div>
+                    <h4 class="text-4xl font-semibold">Jolt</h4>
+                    <p class="mt-2">Experience the Great Outdoors in Style with Jolt's. Shop now and gear up for adventure in Jolt!</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold">Categories</h4>
+                    <ul class="mt-2 space-y-2">
+                        <li><a href="#" class="hover:underline">Jackets</a></li>
+                        <li><a href="#" class="hover:underline">Shirts</a></li>
+                        <li><a href="#" class="hover:underline">Knift</a></li>
+                        <li><a href="#" class="hover:underline">T-shirts</a></li>
+                        <li><a href="#" class="hover:underline">Bottoms</a></li>
+                        <li><a href="#" class="hover:underline">Accesoiries</a></li>
+
+                    </ul>
+                </div>
+        
+                <div>
+                    <h4 class="text-lg font-semibold">Customer Care</h4>
+                    <ul class="mt-2 space-y-2">
+                        <li><a href="#" class="hover:underline">FAQ</a></li>
+                        <li><a href="#" class="hover:underline">Shipping</a></li>
+                        <li><a href="#" class="hover:underline">Order Status</a></li>
+                        <li><a href="#" class="hover:underline">Return & Exchange</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-lg font-semibold">Company</h4>
+                    <ul class="mt-2 space-y-2">
+                        <li><a href="#" class="hover:underline">Privacy</a></li>
+                        <li><a href="#" class="hover:underline">Guides</a></li>
+                        <li><a href="#" class="hover:underline">Term of Conditions</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <div class="flex justify-center space-x-4 mt-2">
+                        <a href="#" class="text-2xl"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-2xl"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-2xl"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="text-2xl"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid grid-cols-3 md:flex justify-end items-center gap-5 px-5 py-5 font-">
+            <div>
+                <p><a href="#" class="hover:underline">Call Us On +12 332476</a></p>
+            </div>
+            <div>
+                <p><a href="#" class="underline">Send Email</a></p>  
+            </div>
+            <div>
+                <p>USD $ | English</p> 
+            </div>
+        </div>
+        <div>
+            <p class="mt-6 text-sm font-semibold text-center">&copy; 2023 Jolt Studio.Inc - All Rights Reserved. </p>
+        </div>
+    </footer>
+<script src="JS/script.js"></script>
+</body>
+
+</html>
